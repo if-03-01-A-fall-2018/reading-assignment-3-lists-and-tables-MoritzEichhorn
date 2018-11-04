@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="styleSheet.css">
+    <meta charset="utf-8">
+    <title>CheatSheet</title>
+  </head>
+  <body>
+    <article>
+      <h1>CheatSheet, Moritz Eichhorn</h1>
+
+      <hr />
+
+      <section>
+        <h3>WWW</h3>
+        <dl>
+          <dt>Essential Technologies</dt>
+          <dd>URL/URI</dd>
+          <dd>HTML</dd>
+          <dd>HTTP</dd>
+          <dt>Addressed Resources</dt>
+          <dd>URL</dd>
+          <dt>Components of URL</dt>
+          <dd>Protocol</dd>
+          <dd>Hostname</dd>
+          <dd>File name</dd>
+        </dl>
+      </section>
+
+      <hr />
+
+      <section>
+        <h3>Web Server</h3>
+        <dl>
+          <dt>What is it?</dt>
+          <dd>is a program that servers the files that form Web pages to users via HTTP</dd>
+          <dt>What does it?</dt>
+          <dd>stores, processes and delivers web pages to clients</dd>
+          <dt>Storage</dt>
+          <dd>The resource is typically a real file on the server's secondary storage, but it depends on how it is implemented</dd>
+        </dl>
+      </section>
+
+      <hr />
+
+      <section>
+        <h3>Web Client</h3>
+        <dl>
+          <dt>What is it?</dt>
+          <dd>It is a software application for accessing information on the WWW</dd>
+          <dt>What does it?</dt>
+          <dd>Fetches information rescources and displays them on a user's device</dd>
+        </dl>
+      </section>
+
+      <hr />
+
+      <section>
+        <h3>Hello World</h3>
+        <p>
+          &lt;!DOCTYPE html&gt;<br />
+          &lt;html lang="en" dir="ltr"&gt;<br />
+            &lt;head&gt;<br />
+              &lt;meta charset="utf-8"&gt;<br />
+              &lt;title&gt;&lt;/title&gt;<br />
+            &lt;/head&gt;<br />
+            &lt;body&gt;<br />
+            &lt;/body&gt;<br />
+          &lt;/html&gt;
+        </p>
+      </section>
+
+      <hr />
+
+      <section>
+        <h3>CSS</h3>
+        <dl>
+          <dt>Syntax</dt>
+          <dd>Css rule consists of a selector and a declaration block</dd>
+          <dd>Each declaration includes a CSS property name and value</dd>
+          <dt>Backgound Image</dt>
+          <dd>background-image: url("image.png");</dd>
+          <dd>background-repeat: no-repeat;</dd>
+          <dd>background-attachment: fixed;</dd>
+          <dt>Text</dt>
+          <dd>text-transfrom: lowercase;</dd>
+          <dt>Font</dt>
+          <dd>font-family: "Times New Roman",Times, serif;</dd>
+          <dd>font-size: 30px</dd>
+          <dd>font-size: 1.875em;</dd>
+          <dd>font-weigth: normal</dd>
+          <dt>Pseudo-class</dt>
+          <dd>a:visited{color: #FF0000;}</dd>
+          <dd>p:first-child{color: blue;}</dd>
+        </dl>
+      </section>
+
+      <hr />
+
+      <section>
+        <h3>Answering Sample Questions</h3>
+        <strong>HTML</strong>
+        <ol>
+          <li>Start tag, content, end tag</li>
+          <li>Do NOT have an end tag for example &lt;br /&gt;</li>
+          <li>Are in the start tag and provide addtitional information about an element</li>
+          <li>&lt;DOCTYPE html&gt;</li>
+        </ol>
+        <strong>CSS</strong>
+        <ol>
+          <li>Consists of a selector and a declaration block, each declaration inludes a CSS property name and value</li>
+          <li>div p, div &gt; p, div + p, div ~ p</li>
+          <li>You can find all declaration in the real CheatSeet part of this document!</li>
+        </ol>
+      </section>
+
+      <hr />
+
+      <section>
+        <h3>Html for Lists</h3>
+        <dl>
+          <dt>Unordered List</dt>
+          <dd>Start tag: &lt;ul&gt;</dd>
+          <dd>List item: &lt;li&gt;</dd>
+          <dt>Ordered List</dt>
+          <dd>Start tag: &lt;ol&gt;</dd>
+          <dd>List item: &lt;li&gt;</dd>
+          <dt>Description List</dt>
+          <dd>Start tag: &lt;dl&gt;</dd>
+          <dd>Description Term: &lt;dt&gt;</dd>
+          <dd>Description Data: &lt;dd&gt;</dd>
+        </dl>
+      </section>
+
+      <hr />
+
+      <section>
+        <h3>Css for Lists</h3>
+        <dl>
+          <dt>Different List Item Markers</dt>
+          <dd>list-style-type: circle/square/upper-roman/lower-alpha;</dd>
+          <dt>Image as List Item Marker</dt>
+          <dd>list-style-image: url('url.png');</dd>
+          <dt>Position List Item Markers</dt>
+          <dd>list-style-position: outside/inside;</dd>
+          <dt>Remove Default Setting</dt>
+          <dd>list-style-type: none;</dd>
+          <dd>margin: 0;</dd>
+          <dd>padding: 0;</dd>
+        </dl>
+      </section>
+
+      <hr />
+
+      <section>
+        <h3>Html for Tables</h3>
+        <dl>
+          <dt>Defining an HTML Table</dt>
+          <dd>Start tag: &lt;table&gt;</dd>
+          <dd>Table row: &lt;tr&gt;</dd>
+          <dd>Table header: &lt;th&gt;</dd>
+          <dd>Table data: &lt;td&gt;</dd>
+          <dd>thead, tbody, tfoot!!!</dd>
+          <dt>Cells that span many Columns/Rows</dt>
+          <dd>&lt;th col/rowspan="2"&gt;</dd>
+          <dt>Caption</dt>
+          <dd>Start tag: &lt;caption&gt;</dd>
+        </dl>
+      </section>
+
+      <hr />
+
+      <section>
+        <h3>Css for Tables</h3>
+        <dl>
+          <dt>Table Borders</dt>
+          <dd>table, th,td { border: 1px solid black; }</dd>
+          <dt>Collapse Table Borders</dt>
+          <dd>border-collapse: collapse;</dd>
+          <dt>Table Width and Height</dt>
+          <dd>table { width: 100%; }</dd>
+          <dd>th { height: 50px; }</dd>
+          <dt>Striped Tables</dt>
+          <dd>tr:nth-child(even/odd) { background-color: #f2f2f2; }</dd>
+          <dt>Border Style</dt>
+          <dd>Property: border-style</dd>
+          <dd>Values: dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden</dd>
+          <dt>Border Width</dt>
+          <dd>Property: border-width</dd>
+          <dd>Values: (one) 5px/medium, (four) 2px 10px 4px 20px</dd>
+          <dt>Border Color</dt>
+          <dd>property: border-color</dd>
+          <dd>values: as usual</dd>
+          <dt>Individual Sides</dt>
+          <dd>Property: border-top/right/bottom/left-style</dd>
+          <dd>or border-style: top right bottom left;</dd>
+          <dt>Shorthand Property</dt>
+          <dd>border: width style color;</dd>
+          <dt>Rounded Borders</dt>
+          <dd>Property: border-radius</dd>
+        </dl>
+      </section>
+    </article>
+  </body>
+</html>
